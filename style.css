@@ -1,0 +1,89 @@
+.container {
+  width: 600px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 60px 0;
+  padding: 30px;
+  box-shadow: 0 30px 50px;
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 30px;
+}
+.input {
+  display: flex;
+  justify-content: center;
+}
+header .city {
+  display: block;
+  margin: 0;
+}
+header .search-input {
+  width: 75%;
+  padding: 20px;
+  background-color: #f9f7fe;
+  border-radius: 6px;
+  border-color: none;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  border: none;
+  margin: -20px;
+}
+header .search {
+  margin-left: 30px;
+  font-size: 16px;
+  background-color: #885df1;
+  color: white;
+  border: none;
+  padding: 20px;
+  line-height: 1;
+  border-radius: 5px;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+.current-weather h1 {
+  font-size: 38px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+.current-weather .details {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+}
+.highlight {
+  color: red;
+}
+.temp .degree {
+  font-size: 28px;
+  position: relative;
+  top: -38px;
+  font-family: "Roboto", sans-serif;
+}
+.temp .temp-icon {
+  position: relative;
+  top: -8px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+.temp .current-temp {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  display: block;
+  padding: 30px 0;
+}
+footer {
+  display: block;
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 15px;
+  color: rgba(39, 33, 66, 0.4);
+}
